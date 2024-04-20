@@ -1,3 +1,3 @@
-module github.com/GeorgyMironov2001/validator
+module validator
 
 go 1.22.1
