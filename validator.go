@@ -1,4 +1,4 @@
-package homework
+package validator
 
 import (
 	"errors"
