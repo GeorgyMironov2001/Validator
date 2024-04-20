@@ -1,4 +1,4 @@
-module homework
+module validator
 
 go 1.22
 
