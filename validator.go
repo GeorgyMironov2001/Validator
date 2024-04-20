@@ -84,7 +84,7 @@ func checkIn(fieldName string, field reflect.Value, tag string) error {
 func checkMin(fieldName string, field reflect.Value, tag string) error {
 	checkValue, _ := strconv.Atoi(tag)
 	switch field.Kind() {
-	case reflect.Int:
+	case reflect.Int, reflect.Int64:
 		if int(field.Int()) < checkValue {
 			return NewValidationError(ErrMinValidationFailed, fieldName)
 		}
