@@ -1,4 +1,4 @@
-package validator
+package github.com/GeorgyMironov2001/validator
 
 import (
 	"errors"
